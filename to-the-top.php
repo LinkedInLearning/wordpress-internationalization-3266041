@@ -12,3 +12,13 @@
  * Text Domain:       to-the-top
  * Domain Path:       /languages
  */
+
+function ttt_add_link() {
+
+    // Define the 'back to top' link text.
+    $link_text = __( 'Back to top', 'to-the-top' );
+
+    // Output the 'back to top' link.
+    printf( '<a href="#" id="to-the-top">%s</a>', $link_text );
+ }
+ add_action( 'wp_footer', 'ttt_add_link' );
