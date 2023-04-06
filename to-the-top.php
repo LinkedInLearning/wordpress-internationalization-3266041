@@ -16,7 +16,7 @@
 function ttt_add_link() {
 
     // Define the 'back to top' link text.
-    $link_text = __( 'Back to top', 'to-the-top' );
+    $link_text = __( 'Back to top (PHP)', 'to-the-top' );
 
     // Output the 'back to top' link.
     printf( '<a href="#" id="to-the-top">%s</a>', $link_text );
