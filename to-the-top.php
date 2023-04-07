@@ -24,6 +24,18 @@ function ttt_add_link() {
 add_action( 'wp_footer', 'ttt_add_link' );
 
 function ttt_load_scripts() {
-	wp_enqueue_script( 'to-the-top', plugin_dir_url(__FILE__) . 'js/to-the-top.js', array( 'wp-i18n', 'jquery' ) );
+	wp_enqueue_script( 'to-the-top-js', plugin_dir_url(__FILE__) . 'js/to-the-top.js', array( 'wp-i18n', 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'ttt_load_scripts' );
+
+// Load PHP translation files.
+function ttt_load_php_translation() {
+	load_plugin_textdomain( 'to-the-top', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+}
+add_action( 'init', 'ttt_load_php_translation' );
+
+// Load JS translation files.
+function ttt_load_js_translation() {
+	wp_set_script_translations( 'to-the-top-js', 'to-the-top', plugin_dir_path( __FILE__ ) . '/languages' );
+}
+add_action( 'wp_enqueue_scripts', 'ttt_load_js_translation', 100 );
