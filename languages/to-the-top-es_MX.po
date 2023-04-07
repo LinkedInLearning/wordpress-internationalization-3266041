@@ -1,0 +1,39 @@
+# Copyright (C) 2023 Carrie Dils
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: To the Top 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/to-the-top\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-06T17:27:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: to-the-top\n"
+
+#. Plugin Name of the plugin
+msgid "To the Top"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds a 'back to top' link"
+msgstr ""
+
+#. Author of the plugin
+msgid "Carrie Dils"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://carriedils.com/"
+msgstr ""
+
+#: to-the-top.php:19
+msgid "Back to top (PHP)"
+msgstr "Volver al inicio"
+
+#: js/to-the-top.js:9
+msgid "Back to top (JS)"
+msgstr "Volver al inicio"
