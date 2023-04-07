@@ -34,6 +34,3 @@ msgstr ""
 msgid "Back to top (PHP)"
 msgstr "Volver al inicio"
 
-#: js/to-the-top.js:9
-msgid "Back to top (JS)"
-msgstr "Volver al inicio"
