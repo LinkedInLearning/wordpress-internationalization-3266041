@@ -1,8 +1,11 @@
 # WordPress: Internationalization
-This is the repository for the LinkedIn Learning course `WordPress: Internationalization`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course WordPress: Internationalization. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![WordPress: Internationalization][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
+The WordPress content management system powers over 40% of the web. And the WordPress user base and developer network isn't limited to English–WordPress is global software supporting a variety of languages, and its internationalization features allow developers to configure their code so they can be easily translated for any locale. In this course, Carrie Dils introduces the specific functions and tools WordPress developers can use to make their code translatable to any language. Join Carrie as she shows how to work with various translation functions in WordPress, how to make themes and plugins translatable,
+and even generate language files. Plus, if you know another language, find out how you can help the entire WordPress community by contributing to the WordPress translation project on GlotPress, an open-source platform used to translate WordPress.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -21,15 +24,16 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
 
+### Instructor
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+Carrie Dils 
+                            
+WordPress Developer
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+                            
 
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/carrie-dils).
+
+[lil-course-url]: https://www.linkedin.com/learning/wordpress-internationalization-22343157?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHr1McQUIAbgQ/learning-public-crop_288_512/0/1684865080588?e=2147483647&v=beta&t=ERCZ1GxwSt0JNEAJCN8Buu-gt2hglXsEj1o5DXYH4Ps
